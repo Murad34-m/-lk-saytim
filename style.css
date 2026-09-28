@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;   /* düyməyə basanda yumşaq sürüşmə */
+}
+
+body {
+    margin: 0;
+    background-color: rgb(12, 32, 62);
+}
+
+.menu {
+    background-color: rgb(10, 21, 38);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    position: sticky;          /* menyu yuxarıda qalır */
+    top: 0;
+    z-index: 100;
+}
+
+.sol, .sag {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.menu p {
+    margin: 0;
+}
+
+button {
+    background-color: rgb(30, 11, 174);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(50, 31, 214);
+}
+.menu2 {
+    margin-top: 50px;
+    margin-left: 10%;
+    color: white;
+}
+
+.menu2 h1 {
+    width: 250px;
+    margin: 0 0 15px 0;
+}
+
+.menu2 p {
+    width: 450px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.duymeler {
+    margin-left: 10%;
+    margin-top: 25px;
+}
+
+.duymeler a {
+    margin-right: 10px;
+}
+.menu3 {
+    background-color: rgb(10, 21, 38);
+    color: white;
+    display: flex;
+    gap: 30px;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hisse {
+    width: 33%;
+}
+
+.hisse h5 {
+    font-size: 18px;
+}
+
+.hisse h3 {
+    font-size: 22px;
+}
+
+.hisse p {
+    line-height: 1.5;
+}
+
+/* ---------- Bölmələr ---------- */
+.menu4,
+.menu5,
+.menu6 {
+    margin-left: 10%;
+    margin-top: 25px;
+    background-color: rgb(10, 21, 38);
+    color: white;
+    width: 80%;
+    padding: 20px;
+}
+
+.menu4,
+.menu5,
+.menu7 {
+    scroll-margin-top: 80px;
+}
+.menu7 {
+    background-color: rgb(10, 21, 38);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.menu7 .sol,
+.menu7 .sag {
+    width: 45%;
+}
